@@ -164,7 +164,7 @@ image::../media/esds_installation_workflow.png[Zeigt den Installations-Workflow.
 
 
 
-== Dynamische Knotenbewertung (NEU in Element 12.3.1!)
+== Dynamische Knotenbewertung (_NEU in Element 12.3.1!_)
 
 Die dynamische Knotenbewertung ist eine neue Funktion in Element 12.3.1, mit der Sie 24 unterstützte CPUs pro ESDS-Plattform nutzen können, im Gegensatz zum heutigen Modell einer einzelnen CPU pro Plattform.
 
