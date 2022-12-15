@@ -9687,7 +9687,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 19:48:14 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:27:04 +0000">12/15/2022</time>
     
   
 
@@ -9703,7 +9703,7 @@
 <p>Für ein Upgrade der NetApp Element Software können Sie die NetApp Hybrid Cloud Control UI, DIE REST-API oder die HealthTools Suite verwenden. Bestimmte Vorgänge werden bei einem Upgrade der Element Software unterdrückt, z. B. beim Hinzufügen und Entfernen von Nodes, beim Hinzufügen und Entfernen von Laufwerken sowie Befehle, die unter anderem mit Initiatoren, Volume-Zugriffsgruppen und virtuellen Netzwerken verbunden sind.</p>
 </div>
 <div class="ulist">
-<div class="title">Was Sie und#8217;ll benötigen</div>
+<div class="title">Was Sie benötigen</div>
 <ul>
 <li>
 <p><strong>Administratorrechte</strong>: Sie haben Berechtigungen für den Storage Cluster Administrator, um das Upgrade durchzuführen.</p>
@@ -9784,21 +9784,22 @@ Wenn Sie die EULA akzeptieren, wird sie für alle zukünftigen Updates aufgezeic
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">Upgrade-Optionen</div>
 <p>Wählen Sie eine der folgenden Upgrade-Optionen für Element Software:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>NetApp Hybrid Cloud Control UI to upgrade Element storage</p>
+<p><a href="#verwendung-der-netapp-hybrid-cloud-control-ui-für-das-upgrade-von-element-storage">Verwendung der NetApp Hybrid Cloud Control UI für das Upgrade von Element Storage</a></p>
 </li>
 <li>
-<p>NetApp Hybrid Cloud Control API to upgrade Element storage</p>
+<p><a href="#nutzen-sie-die-netapp-hybrid-cloud-control-api-für-das-upgrade-von-element-storage">Nutzen Sie die NetApp Hybrid Cloud Control API für das Upgrade von Element Storage</a></p>
 </li>
 <li>
-<p>Element software at connected sites using HealthTools</p>
+<p><a href="#aktualisieren-der-element-software-an-angeschlossenen-standorten-mithilfe-von-healthtools">Aktualisieren der Element-Software an angeschlossenen Standorten mithilfe von HealthTools</a></p>
 </li>
 <li>
-<p>Element software at dark sites using HealthTools</p>
+<p><a href="#aktualisieren-der-element-software-an-dunklen-standorten-mithilfe-von-healthtools">Aktualisieren der Element-Software an dunklen Standorten mithilfe von HealthTools</a></p>
 </li>
 </ul>
 </div>
@@ -9809,7 +9810,7 @@ Wenn Sie die EULA akzeptieren, wird sie für alle zukünftigen Updates aufgezeic
 <img src="/us-en/element-software-123/images/important.svg" alt="Wichtig">
 </td>
 <td class="content">
-Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte ( H610S storage nodes to Element 12.3.x (phase 2),Phase 2) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
+Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte (<a href="#aktualisieren-der-h610s-storage-nodes-auf-element-12-3-x-phase-2">Phase 2</a>) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
 </td>
 </tr>
 </table>
@@ -9823,7 +9824,7 @@ Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem
 <p>Über die Benutzeroberfläche von NetApp Hybrid Cloud Control können Sie ein Storage-Cluster-Upgrade durchführen.</p>
 </div>
 <div class="ulist">
-<div class="title">Was Sie und#8217;ll benötigen</div>
+<div class="title">Was Sie benötigen</div>
 <ul>
 <li>
 <p>Wenn Ihr Management-Node nicht mit dem Internet verbunden ist, haben Sie das Paket von folgendem Speicherort heruntergeladen:</p>
@@ -9913,7 +9914,7 @@ Der Upgrade-Vorgang dauert etwa 30 Minuten pro Node bei nicht-H610S Plattformen.
 <img src="/us-en/element-software-123/images/tip.svg" alt="Hinweis">
 </td>
 <td class="content">
-Der <strong>Upgrade-Status</strong> ändert sich während des Upgrades, um den Status des Prozesses anzuzeigen. Es ändert sich auch in Reaktion auf Aktionen, die Sie ergreifen, z. B. die Unterbrechung des Upgrades oder wenn das Upgrade einen Fehler zurückgibt. Siehe  status changes.
+Der <strong>Upgrade-Status</strong> ändert sich während des Upgrades, um den Status des Prozesses anzuzeigen. Es ändert sich auch in Reaktion auf Aktionen, die Sie ergreifen, z. B. die Unterbrechung des Upgrades oder wenn das Upgrade einen Fehler zurückgibt. Siehe <a href="#statusänderungen-des-upgrades">Statusänderungen des Upgrades</a>.
 </td>
 </tr>
 </table>
@@ -9978,7 +9979,7 @@ Der Datei-Upload geht verloren, wenn Sie vom Browser-Fenster wegnavigieren.
 </ol>
 </div>
 <div class="paragraph">
-<p>Sie können Protokolle herunterladen, nachdem die Aktualisierung abgeschlossen ist. Informationen zu den verschiedenen Änderungen des Aktualisierungsstatus finden Sie unter  status changes.</p>
+<p>Sie können Protokolle herunterladen, nachdem die Aktualisierung abgeschlossen ist. Informationen zu den verschiedenen Änderungen des Aktualisierungsstatus finden Sie unter <a href="#statusänderungen-des-upgrades">Statusänderungen des Upgrades</a>.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -10503,7 +10504,7 @@ Der Datei-Upload geht verloren, wenn Sie vom Browser-Fenster wegnavigieren.
 <td class="tableblock halign-left valign-top"><div class="content"><div class="olist lowerroman">
 <ol class="lowerroman" type="i">
 <li>
-<p>Siehe  H610S storage nodes to Element 12.3.x (phase 2) Und schließen Sie den Prozess für jeden Node ab.</p>
+<p>Siehe <a href="#aktualisieren-der-h610s-storage-nodes-auf-element-12-3-x-phase-2">Aktualisieren der H610S Storage-Nodes auf Element 12.3.x (Phase 2)</a> Und schließen Sie den Prozess für jeden Node ab.</p>
 </li>
 <li>
 <p>Bei Bedarf erneut authentifizieren und <strong>PUT ​/Upgrades/{UpgradeId}</strong> auswählen.</p>
@@ -10794,7 +10795,7 @@ Starting light cluster block service check</pre>
 <img src="/us-en/element-software-123/images/important.svg" alt="Wichtig">
 </td>
 <td class="content">
-Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte ( H610S storage nodes to Element 12.3.x (phase 2),Phase 2) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
+Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte (<a href="#aktualisieren-der-h610s-storage-nodes-auf-element-12-3-x-phase-2">Phase 2</a>) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
 </td>
 </tr>
 </table>
@@ -10808,7 +10809,7 @@ Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem
 <p>Sie können die HealthTools-Suite verwenden, um die NetApp Element-Software an einem dunklen Standort zu aktualisieren, der keine externe Verbindung hat.</p>
 </div>
 <div class="olist arabic">
-<div class="title">Was Sie und#8217;ll benötigen</div>
+<div class="title">Was Sie benötigen</div>
 <ol class="arabic">
 <li>
 <p>Wechseln Sie zur Element Software <a href="https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab" target="_blank" rel="noopener">"download-Seite"</a>.</p>
@@ -10911,7 +10912,7 @@ Sie können dies mit, z. B. SCP, tun. Wenn Sie die ISO-Datei hochladen, stellen 
 <img src="/us-en/element-software-123/images/important.svg" alt="Wichtig">
 </td>
 <td class="content">
-Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte ( H610S storage nodes to Element 12.3.x (phase 2),Phase 2) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
+Wenn Sie einen Node der H610S-Serie auf Element 12.3.x aktualisieren und auf dem Node eine Version von Element vor 11.8 ausgeführt wird, müssen Sie zusätzliche Aktualisierungsschritte (<a href="#aktualisieren-der-h610s-storage-nodes-auf-element-12-3-x-phase-2">Phase 2</a>) Für jeden Storage-Knoten. Wenn Sie Element 11.8 oder höher ausführen, sind die zusätzlichen Aktualisierungsschritte (Phase 2) nicht erforderlich.
 </td>
 </tr>
 </table>
