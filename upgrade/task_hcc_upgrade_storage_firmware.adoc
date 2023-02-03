@@ -52,7 +52,7 @@ NOTE: Wenn Sie die EULA akzeptieren, wird sie für alle zukünftigen Updates auf
 
 
 
-NOTE: Eine vollständige Matrix der Firmware und der Treiber-Firmware für Ihre Hardware finden Sie unter https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["Diesen KB-Artikel"^] (anmeldung erforderlich).
+NOTE: Eine vollständige Matrix der Firmware und der Treiber-Firmware für Ihre Hardware finden Sie unter link:../hardware/fw_storage_nodes.html["Unterstützte Storage-Firmware-Versionen für SolidFire Storage-Nodes"]
 
 .Upgrade-Optionen
 Wählen Sie eine der folgenden Upgrade-Optionen für die Speicher-Firmware:
