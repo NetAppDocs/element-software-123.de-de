@@ -63,6 +63,8 @@ homepage:
       url: "/hardware/concept_h410s_h610s_info.html"
     - title: Hardwareinformationen zur SF-Series
       url: "/hardware/concept_sfseries_info.html"
+    - title: Kehren Sie zur Factory Image Information zurück
+      url: "/hardware/concept_rtfi_configure.html"
     - title: Unterstützte Firmware-Versionen für NetApp H-Series Storage Nodes
       url: "/hardware/fw_storage_nodes.html"
   - title: Storage-Management
