@@ -9133,9 +9133,6 @@
   <block id="02c521e9d0cf5b0c627a3117299416a5" category="paragraph">Gibt an, ob der Node die Laufwerkverschlüsselung unterstützt.</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">Sie können ein gesamtes Cluster herunterfahren, nachdem Sie den NetApp Support kontaktiert und erste Schritte durchgeführt haben.</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">Schalten Sie ein Cluster aus</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">Bereiten Sie den Cluster für das Herunterfahren vor, indem Sie folgende Schritte durchführen:</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">Beenden Sie alle E/A-Vorgänge</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">Trennen Sie alle iSCSI-Sitzungen.</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">Navigieren Sie zur Management Virtual IP (MVIP)-Adresse auf dem Cluster, um die Element-UI zu öffnen.</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">Beachten Sie die in der Liste Knoten aufgeführten Knoten.</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">Führen Sie die Shutdown-API-Methode mit der Stopp-Option aus, die für jede Node-ID im Cluster angegeben ist.</block>
@@ -11341,7 +11338,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0 oder höher</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">Beginnend mit dem Element Plug-in für VMware vCenter Server 5.0, umfasst dieses Upgrade-Verfahren die folgenden Upgrade-Szenarien:</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Sie führen ein Upgrade auf Element Plug-in für vCenter Server 5.0 durch.</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">Sie aktualisieren gerade auf einen 8.0 oder 7.0 HTML5 vSphere Web Client.</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Das Element Plug-in für vCenter 5.0 und höher ist nicht mit vCenter Server 6.7 und 6.5 kompatibel.</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Bei einem Upgrade von Element Plug-in für vCenter Server 4.x auf 5.0 gehen die mit dem Plug-in konfigurierten Cluster verloren, da die Daten nicht von einer vCenter Instanz in ein Remote-Plug-in kopiert werden können. Sie müssen die Cluster dem Remote-Plug-in erneut hinzufügen. Dies ist eine einmalige Aktivität beim Upgrade von einem lokalen Plug-in auf ein Remote-Plug-in.</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter Plug-in 4.10 oder früher</block>
@@ -12655,11 +12651,23 @@
   <block id="6488398a09e5e3619c68849839032852" category="list-text">Linux: Sie haben einige Hintergrundinformationen zu Linux-Systemen.</block>
   <block id="88a314dd47a5b577c9b424a096c7a9e8" category="list-text">Networking: Sie kennen sich mit Servernetzwerken und Netzwerk-Storage aus, einschließlich IP-Adressen, Netmasken und Gateways.</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">Implementieren und Installieren des ISO-Image (RTFI International Organization for Standardization) und Durchführen des RTFI-Prozesses:</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="fe87b6b5d8e86013cf5abe3db7879c77" category="list-text">Secure löscht alle ausgewählten Laufwerke.</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">Informationen zum Erstellen eines USB-Schlüssels oder zur Verwendung des BMC für den RTFI-Prozess finden Sie unter <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>.</block>
   <block id="a386fc287fd28e52c07d586cfb7aa08b" category="admonition">Nach dem Start des Prozesses werden alle Daten- und Konfigurationsdetails dauerhaft vom Node gelöscht. Wenn Sie nicht fortfahren möchten, werden Sie an den weitergeleitet <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
   <block id="d9730da4fb3635f5ccd1c078266c9334" category="paragraph">Wenn während des RTFI-Prozesses eine Fehlermeldung aufgetreten ist, lesen Sie den Abschnitt <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">Sie aktualisieren gerade auf einen 8.0 oder 7.0 HTML5 vSphere Web Client.</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">Gehen Sie wie folgt vor, um ein gesamtes Cluster herunterzufahren.</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">(Optional) Wenden Sie sich an den NetApp Support, um Hilfe beim Abschluss der ersten Schritte zu erhalten.</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">Vergewissern Sie sich, dass alle I/O-Vorgänge angehalten wurden.</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">Trennen Sie alle iSCSI-Sitzungen:</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">Wenn Sie das Cluster neu starten, müssen Sie bestimmte Schritte durchführen, um zu überprüfen, ob alle Nodes online sind:</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">Stellen Sie sicher, dass alle kritischen Schweregrad und<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> Clusterfehler wurden behoben.</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">Warten Sie 10 bis 15 Minuten, bis sich das Cluster absetzen lässt.</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">Starten Sie, um die Hosts für den Zugriff auf die Daten aufzurufen.</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">Wenn Sie beim Einschalten der Knoten mehr Zeit einplanen und überprüfen möchten, ob sie nach der Wartung ordnungsgemäß sind, wenden Sie sich an den technischen Support, um Hilfe bei der Verzögerung der Datensynchronisierung zu erhalten, um unnötige bin-Synchronisierung zu vermeiden.</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">Ordnungsgemäß Herunterfahren und Einschalten eines NetApp SolidFire/HCI Storage-Clusters</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">Informationen zum Erstellen eines USB-Schlüssels oder zur Verwendung des BMC für den RTFI-Prozess finden Sie unter <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
