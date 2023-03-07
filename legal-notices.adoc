@@ -60,7 +60,6 @@ In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und L
 * link:./media/mgmt-216.pdf["Hinweis zu Managementservices 2.16 (NetApp Element-Plug-in für vCenter Server 4.6.29)"^]
 * link:./media/mgmt-214.pdf["Hinweis zu Managementservices 2.14 (NetApp Element-Plug-in für vCenter Server 4.5.42)"^]
 * link:./media/mgmt-213.pdf["Hinweis zu Managementservices 2.13 (NetApp Element-Plug-in für vCenter Server 4.5.42)"^]
-* link:./media/SolidFire_eSDS_12.3.pdf["Hinweis zu NetApp SolidFire-Enterprise-SDS"^]
 * link:./media/storage_firmware_bundle_2.146_notices.pdf["Hinweis zum Storage Firmware Bundle 2.146"^]
 * link:./media/storage_firmware_bundle_2.99_notices.pdf["Hinweis zum Storage Firmware Bundle 2.99.2"^]
 * link:./media/storage_firmware_bundle_2.76_notices.pdf["Hinweis zum Storage Firmware Bundle 2.76"^]
