@@ -17,19 +17,17 @@ Beim Erstellen eines NetApp Element-Software-Clusters erstellt das Cluster ein e
 
 Sie können die folgenden API-Methoden verwenden, um mehr Informationen über das Standard-SSL-Zertifikat zu erhalten und Änderungen vorzunehmen.
 
-Informationen zu den einzelnen Methoden finden Sie im link:../api/index.html["NetApp Element Software-API-Referenz"].
-
 * *GetSSLZertifikat*
 +
-Mit dieser Methode können Sie Informationen über das aktuell installierte SSL-Zertifikat einschließlich aller Zertifikatdetails abrufen.
+Sie können das verwenden link:../api/reference_element_api_getsslcertificate.html["GetSSLCertificate-Methode"] So rufen Sie Informationen zum derzeit installierten SSL-Zertifikat ab, einschließlich aller Zertifikatdetails.
 
 * *SetSSLZertifikat*
 +
-Sie können diese Methode verwenden, um die Cluster- und per-Node-SSL-Zertifikate auf das Zertifikat und den privaten Schlüssel einzustellen, den Sie bereitstellen. Das System überprüft das Zertifikat und den privaten Schlüssel, um zu verhindern, dass ein ungültiges Zertifikat angewendet wird.
+Sie können das verwenden link:../api/reference_element_api_setsslcertificate.html["SetSSLCertificate-Methode"] Zum Festlegen der Cluster- und Node-SSL-Zertifikate auf das von Ihnen zur Verfügung gestellt Zertifikat und den privaten Schlüssel. Das System überprüft das Zertifikat und den privaten Schlüssel, um zu verhindern, dass ein ungültiges Zertifikat angewendet wird.
 
 * *RemoveSSLZertifikat*
 +
-Diese Methode entfernt das aktuell installierte SSL-Zertifikat und den privaten Schlüssel. Das Cluster generiert dann ein neues selbstsigniertes Zertifikat und einen privaten Schlüssel.
+Der link:../api/reference_element_api_removesslcertificate.html["RemoveSSLCertificate-Methode"] Entfernt das derzeit installierte SSL-Zertifikat und den privaten Schlüssel. Das Cluster generiert dann ein neues selbstsigniertes Zertifikat und einen privaten Schlüssel.
 
 
 
@@ -40,6 +38,8 @@ NOTE: Das Cluster-SSL-Zertifikat wird automatisch auf alle neuen Nodes angewende
 
 == Weitere Informationen
 
+* link:../mnode/reference_change_mnode_default_ssl_certificate.html["Ändern Sie das Standard-SSL-Zertifikat für den Management-Node"]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_are_the_requirements_around_setting_custom_SSL_certificates_in_Element_Software%3F["Welche Anforderungen gelten für das Festlegen benutzerdefinierter SSL-Zertifikate in der Element Software?"^]
 * https://www.netapp.com/data-storage/solidfire/documentation["Seite „SolidFire und Element Ressourcen“"^]
 * https://docs.netapp.com/us-en/vcp/index.html["NetApp Element Plug-in für vCenter Server"^]
 
