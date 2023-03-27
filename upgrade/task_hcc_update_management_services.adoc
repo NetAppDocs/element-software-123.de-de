@@ -24,7 +24,7 @@ Seit der Version für Element 11.3 Management-Nodes wurde das Design der Managem
 
 [NOTE]
 ====
-* Zu den Management Services 2.22.7 gehört das NetApp Element Plug-in für VMware vCenter Server 5.0 mit dem Remote-Plug-in. Wenn Sie das Element Plug-in verwenden, sollten Sie ein Upgrade auf Version 5.0 durchführen, um die VMware Direktive zu erfüllen, die Unterstützung für lokale Plug-ins überflüssig macht. https://kb.vmware.com/s/article/87880["Weitere Informationen ."^]. Wenn Sie das Plug-in nicht verwenden, ist dies eine optionale Aktualisierung.
+* Management Services 2.22.7 enthält Element Plug-in für vCenter Server 5.0, das das Remote-Plug-in enthält. Wenn Sie das Element-Plug-in verwenden, sollten Sie ein Upgrade auf die Managementservices 2.22.7 oder höher durchführen, um die VMware-Direktive zu erfüllen, die die Unterstützung für lokale Plug-ins überflüssig macht. https://kb.vmware.com/s/article/87880["Weitere Informationen ."^].
 * Die neuesten Versionshinweise für Management-Services zu wichtigen Services, neuen Funktionen, Bug Fixes und Behelfslösungen für jedes Service Bundle finden Sie unter https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Die Versionshinweise für Managementservices"^]
 
 
