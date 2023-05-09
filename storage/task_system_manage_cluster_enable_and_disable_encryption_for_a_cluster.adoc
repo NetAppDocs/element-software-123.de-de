@@ -30,7 +30,7 @@ WARNING: Bei SolidFire All-Flash-Storage-Clustern muss die Softwareverschlüssel
 
 == Überprüfen Sie den Status der Verschlüsselung im Ruhezustand
 
-Mithilfe der können Sie den aktuellen Status der Verschlüsselung im Ruhezustand und/oder Softwareverschlüsselung im Ruhezustand auf dem Cluster anzeigen link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^] Methode. Sie können das verwenden link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareVerschlüsselungAtRestInfo"^] Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln.
+Mithilfe der können Sie den aktuellen Status der Verschlüsselung im Ruhezustand und/oder Softwareverschlüsselung im Ruhezustand auf dem Cluster anzeigen link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"] Methode. Sie können das verwenden link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareVerschlüsselungAtRestInfo"] Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln.
 
 
 NOTE: Das UI-Dashboard der Element Software unter `https://<MVIP>/` Derzeit wird für hardwarebasierte Verschlüsselung nur die Verschlüsselung im Ruhezustand angezeigt.

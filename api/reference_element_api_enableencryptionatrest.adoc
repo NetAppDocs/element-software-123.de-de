@@ -14,10 +14,10 @@ summary: 'Sie können die EnableVerschlüsselungAtRest-Methode verwenden, um die
 Sie können das verwenden `EnableEncryptionAtRest` Methode zur Aktivierung der 256-Bit-Verschlüsselung nach AES (Advanced Encryption Standard) im Ruhezustand im Cluster, damit der Cluster die für die Laufwerke auf jedem Node verwendete Verschlüsselung verwalten kann. Diese Funktion ist standardmäßig nicht aktiviert.
 
 
-TIP: Mithilfe der können Sie den aktuellen Status der Verschlüsselung im Ruhezustand und/oder Softwareverschlüsselung im Ruhezustand auf dem Cluster anzeigen link:../api/reference_element_api_getclusterinfo["Abrufen der Cluster Info-Methode"^]. Sie können das verwenden `GetSoftwareEncryptionAtRestInfo` link:../api/reference_element_api_getsoftwareencryptionatrestinfo["Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln"^].
+TIP: Mithilfe der können Sie den aktuellen Status der Verschlüsselung im Ruhezustand und/oder Softwareverschlüsselung im Ruhezustand auf dem Cluster anzeigen link:../api/reference_element_api_getclusterinfo.html["Abrufen der Cluster Info-Methode"]. Sie können das verwenden `GetSoftwareEncryptionAtRestInfo` link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln"].
 
 
-NOTE: Bei dieser Methode wird die Softwareverschlüsselung im Ruhezustand nicht aktiviert. Dies kann nur mit dem durchgeführt werden link:../api/reference_element_api_createcluster.html["Cluster-Methode erstellen"^] Mit `enableSoftwareEncryptionAtRest` Auf einstellen `true`.
+NOTE: Bei dieser Methode wird die Softwareverschlüsselung im Ruhezustand nicht aktiviert. Dies kann nur mit dem durchgeführt werden link:../api/reference_element_api_createcluster.html["Cluster-Methode erstellen"] Mit `enableSoftwareEncryptionAtRest` Auf einstellen `true`.
 
 Wenn Sie die Verschlüsselung im Ruhezustand aktivieren, managt der Cluster automatisch die Schlüssel intern für die Laufwerke auf jedem Node im Cluster.
 
