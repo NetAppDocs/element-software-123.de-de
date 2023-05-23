@@ -596,7 +596,7 @@ Sie können die HealthTools-Suite verwenden, um die NetApp Element-Software an e
 
 NOTE: Für ein Upgrade der Element Storage-Software ist die neueste Version von HealthTools erforderlich.
 
-. Hier herunterladen https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON-Datei"^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740)[] Von der NetApp Support Site auf einem Computer, der nicht der Management-Node ist, und benennen Sie ihn in um `metadata.json`.
+. Hier herunterladen https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON-Datei"^]  Von der NetApp Support Site auf einem Computer, der nicht der Management-Node ist, und benennen Sie ihn in um `metadata.json`.
 . Kopieren Sie die ISO-Datei auf den Management-Node an einem zugänglichen Speicherort wie `/tmp`.
 +
 
