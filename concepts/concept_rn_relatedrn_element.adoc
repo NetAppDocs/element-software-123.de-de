@@ -20,14 +20,14 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 == NetApp Element Software
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["Versionshinweise zu NetApp Element Software 12.3.2"^] _NEU_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["Versionshinweise zu NetApp Element Software 12.3.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2878089["Versionshinweise zu NetApp Element Software 12.3.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2876498["Versionshinweise zu NetApp Element Software 12.3"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["Versionshinweise zu NetApp Element Software 12.2.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["Versionshinweise zu NetApp Element Software 12.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["Versionshinweise zu NetApp Element Software 12.0.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["Versionshinweise zu NetApp Element Software 12.0"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["Versionshinweise zu NetApp Element Software 11.8.2"^] _NEU_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["Versionshinweise zu NetApp Element Software 11.8.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["Versionshinweise zu NetApp Element Software 11.8.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["Versionshinweise zu NetApp Element Software 11.8"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["Versionshinweise zu NetApp Element Software 11.7"^]
@@ -46,7 +46,8 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 == NetApp Element Plug-in für vCenter Server
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Versionshinweise zu vCenter Plug-in 5.1"^] _NEU_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272["Versionshinweise zu vCenter Plug-in 5.2"^] _NEU_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Versionshinweise zu vCenter Plug-in 5.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884992["VCenter Plug-in 5.0 – Versionshinweise"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884458["VCenter Plug-in 4.10 – Versionshinweise"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881904["VCenter Plug-in 4.9 – Versionshinweise"^]

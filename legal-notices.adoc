@@ -50,6 +50,7 @@ In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und L
 * link:./media/Ember_12.3.pdf["Hinweis für Ember OS 12.3"^]
 * link:./media/HealthTools_12.3.pdf["Hinweis für HealthTools"^]
 * link:./media/mNode_12.3.pdf["Hinweis für Management-Node 12.3"^]
+* link:./media/mgmt_svcs_2.24_notice.pdf["Hinweis zu Managementservices 2.24.40 (NetApp Element-Plug-in für VMware vCenter Server 5.2.12)"^]
 * link:./media/mgmt_svcs_2.23_notice.pdf["Hinweis zu Managementservices 2.23.64 (NetApp Element-Plug-in für VMware vCenter Server 5.1.12)"^]
 * link:./media/mgmt_svcs_2.22_notice.pdf["Hinweis zu Management Services 2.22.7 (NetApp Element-Plug-in für VMware vCenter Server 5.0.37)"^]
 * link:./media/mgmt_svcs_2.21_notice.pdf["Hinweis zu Management Services 2.21.61 (NetApp Element Plug-in für VMware vCenter Server 4.10.12)"^]
