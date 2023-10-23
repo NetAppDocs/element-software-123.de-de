@@ -1,6 +1,7 @@
 ---
 settings:
   name: Element Software
+  downlevel: true
   internal:
     pdf_enabled: true
   prod:
@@ -14,7 +15,7 @@ settings:
   langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: SolidFire und Element Software 12.3.x Dokumentation
+  - title: Dokumentation von SolidFire und Element Software
     url: "/index.html"
   - title: Versionshinweise
     url: "/concepts/concept_rn_relatedrn_element.html"
