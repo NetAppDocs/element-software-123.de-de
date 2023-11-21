@@ -61,7 +61,6 @@ Fibre-Channel-Nodes weisen folgende Merkmale auf:
 
 == Node-Status des Vorgangs
 
-[role="lead"]
 Je nach Konfigurationsstufe kann ein Node in einem von mehreren Status vorhanden sein.
 
 * *Verfügbar*
@@ -90,9 +89,10 @@ Zum Ändern des Node ist eine Authentifizierung erforderlich.
 
 In jedem dieser Zustände werden einige Felder schreibgeschützt.
 
-[discrete]
+
+
 == Weitere Informationen
 
-* https://www.netapp.com/data-storage/solidfire/documentation["Seite „SolidFire und Element Ressourcen“"^]
+* https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]
 * https://docs.netapp.com/us-en/vcp/index.html["NetApp Element Plug-in für vCenter Server"^]
 

@@ -34,7 +34,7 @@ Wenn Sie beispielsweise eine benutzerdefinierte Portnummer hinzufügen möchten,
 link:reference_system_manage_ldap_details.md#["LDAP-Details"]
 
 +
-image::../media/element_new_ldap_servers.jpg[Element neuer ldap-Server]
+image::../media/element_new_ldap_servers.jpg[Allgemeine Einstellungen für die Ansicht LDAP-Server]
 
 . Klicken Sie auf *LDAP aktivieren*.
 . Klicken Sie auf *Benutzerauthentifizierung testen*, wenn Sie den Serverzugriff für einen Benutzer testen möchten.
@@ -44,7 +44,7 @@ image::../media/element_new_ldap_servers.jpg[Element neuer ldap-Server]
 +
 .. Klicken Sie Auf *Benutzer* > *Ansicht*.
 +
-image::../media/element_new_cluster_admin.jpg[Element für neuen Cluster-Admin]
+image::../media/element_new_cluster_admin.jpg[Erstellen Sie eine neue Benutzeransicht]
 
 .. Klicken Sie für den neuen Benutzer auf *LDAP* für den Benutzertyp, und fügen Sie die Gruppe ein, die Sie in das Feld Distinguished Name kopiert haben.
 .. Wählen Sie die Berechtigungen aus, normalerweise alle Berechtigungen.
