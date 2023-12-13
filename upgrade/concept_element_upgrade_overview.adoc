@@ -19,6 +19,9 @@ Sie können das SolidFire Element Storage-System nach der Implementierung immer 
 
 Dazu gehören Management-Services, HealthTools, NetApp Hybrid Cloud Control, Element Software, Management-Node und (je nach Installation) das Element Plug-in für vCenter Server.
 
+
+NOTE: Ab dem 2023. November können Sie ein Komponenten-Upgrade nicht mit NetApp Hybrid Cloud Control oder REST API starten, da die (privaten und öffentlichen) Signaturschlüsselzertifikate am 5. November 2023 abgelaufen sind. Sie können dieses Problem beheben, indem Sie die im Knowledge Base-Artikel dokumentierte Problemumgehung befolgen https://kb.netapp.com/onprem/solidfire/Element_OS/SolidFire_and_HCI_upgrades_unable_to_start_due_to_upgrade_package_upload_error["SolidFire- und HCI-Upgrades können nicht gestartet werden, da Fehler beim Hochladen der Upgradepakete aufgetreten ist"^].
+
 Der <<sys_upgrade,Systemaktualisierungssequenz>> Inhalt beschreibt die Aufgaben, die zum Abschluss eines Upgrades eines SolidFire All-Flash-Storage-Systems erforderlich sind. Idealerweise werden diese Verfahren als Teil der größeren Aufrüstsequenz und nicht isoliert durchgeführt. Wenn ein komponentenbasiertes Upgrade oder eine Aktualisierung erforderlich ist, lesen Sie die Verfahrensvoraussetzungen, um sicherzustellen, dass zusätzliche Komplexität bewältigt wird.
 
 Der link:task_sf_upgrade_all_vsphere.html["VSphere-Upgrade-Sequenz"] Der Inhalt des Element Plug-ins für vCenter Server enthält zusätzliche Schritte vor und nach dem Upgrade, die zur Neuinstallation des Element Plug-ins für vCenter Server erforderlich sind.
