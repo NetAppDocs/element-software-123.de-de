@@ -14,7 +14,7 @@ settings:
     url: "/element-software"
   - version-number: '12.5'
     url: "/element-software-125"
-  langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
+  langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Dokumentation für SolidFire und Element Software 12.3
