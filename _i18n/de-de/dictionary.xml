@@ -665,7 +665,6 @@
   <block id="9522ccc5efb9e837de9ff117f14da7a1" category="paragraph"><block ref="9522ccc5efb9e837de9ff117f14da7a1" category="inline-xref-macro-rx"></block></block>
   <block id="b1ff5704b48e42d700d43961dd415064" category="doc">Marke</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, das NETAPP Logo und die auf der NetApp Markenseite aufgeführten Marken sind Marken von NetApp Inc. Andere Firmen- und Produktnamen können Marken der jeweiligen Eigentümer sein.</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="paragraph"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
   <block id="8f83c3b9c4397441b0078d3a1b7281f8" category="summary">Mit der TestKeyProviderKmip-Methode können Sie testen, ob der angegebene Key Management Interoperability Protocol \(KMIP\)-Schlüsselanbieter erreichbar ist und ordnungsgemäß funktioniert.</block>
   <block id="15511624b789bdf31e38f97755dd6fe2" category="doc">TestKeyProviderKmip</block>
   <block id="edd2e785b7fa00e77417a5c0c179bb3d" category="paragraph">Sie können das verwenden<block ref="15511624b789bdf31e38f97755dd6fe2" prefix=" " category="inline-code"></block> Methode zum Testen, ob der angegebene KMIP-Schlüsselanbieter (Key Management Interoperability Protocol) erreichbar ist und ordnungsgemäß funktioniert</block>
@@ -5973,8 +5972,6 @@
   <block id="4a3ccd34d84d8d5dcf651bea4f92dde6" category="list-text"><block ref="4a3ccd34d84d8d5dcf651bea4f92dde6" category="inline-link-rx"></block></block>
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">SolidFire und Element Software Dokumentationszentrum für frühere Versionen</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">Ressourcen-Seite zu NetApp HCI</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="e2593695976e95f81a24db98be39ed45" category="summary">Ein SolidFire All-Flash-Storage-System besteht aus separaten Hardwarekomponenten \ (Laufwerk und Nodes\), die über die unabhängige NetApp Element Software auf jedem Node in einem einzelnen Pool an Storage-Ressourcen kombiniert werden. Dieser Unified Cluster wird von externen Clients als einzelnes Storage-System präsentiert und wird als eine Einheit über die UI, die API und andere Managementtools von Element Software gemanagt.</block>
   <block id="03531bbe6b454e3015b4001ed6ef7590" category="paragraph">Ein SolidFire All-Flash-Storage-System besteht aus separaten Hardwarekomponenten (Laufwerk und Nodes), die in einem Pool von Storage-Ressourcen kombiniert werden. Dabei wird die NetApp Element Software unabhängig auf jedem Node ausgeführt. Dieses einzelne Storage-System wird als Einheit über die UI, die API und andere Managementtools von Element Software gemanagt.</block>
   <block id="91d2228a1dd7c829ac2836205775867a" category="paragraph">Ein SolidFire Storage-System umfasst die folgenden Hardwarekomponenten:</block>
@@ -6083,8 +6080,6 @@
   <block id="34515669e219305dec5f0b81dbef8b1e" category="paragraph">Im Documentation Center finden Sie zudem Informationen zur Hardwareinstallation und -Wartung, zusätzliche Inhaltsressourcen verfügbar, Links zu bekannten Problemen und behobenen Problemen sowie die neuesten Versionshinweise.</block>
   <block id="662a5ad8c6ae651da9220e35d3f16a18" category="list-text">*NetApp SolidFire Ressourcen Seite*</block>
   <block id="c39c68328651c80dceb0f36d050a7109" category="paragraph">Enthält Ressourcen zur Element Software, einschließlich Links zu Videoinhalten und technischen Berichten</block>
-  <block id="4b3e0d4570a278a1af3fe11601c01d47" category="inline-link">SolidFire All-Flash-Storage-Ressourcen</block>
-  <block id="c16fe39e6b501b8347fb1dd55ba312c6" category="paragraph"><block ref="c16fe39e6b501b8347fb1dd55ba312c6" category="inline-link-rx"></block></block>
   <block id="4a9c1435e759b5c6dd543fceea09ea44" category="list-text">*NetApp SolidFire Documentation Center*</block>
   <block id="028b8f4057634cf2f3954305a74dc779" category="paragraph">Bietet Informationen zur Installation und Wartung der Hardware, zusätzliche verfügbare Content-Ressourcen, Links zu bekannten Problemen und behobenen Problemen sowie die neuesten Versionshinweise.</block>
   <block id="99876372740307113d18bf0a8023fbbf" category="inline-link">SolidFire und Element 11.3 Documentation Center</block>
@@ -6559,7 +6554,6 @@
   <block id="0f5a20082c20009526d7d768b6279f05" category="list-text"><block ref="0f5a20082c20009526d7d768b6279f05" category="inline-xref-macro-rx"></block></block>
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">Was kommt als Nächstes?</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="2fca2de2ec3347ae2ad2757bae53a038" category="summary">Volume-Zugriffsgruppen ermöglichen die Kommunikation zwischen Fibre Channel Clients und Volumes auf einem SolidFire Storage-System. Das Zuordnen von Fibre Channel-Client-Initiatoren \(WWPN\) zu den Volumes einer Volume-Zugriffsgruppe ermöglicht den sicheren Daten-I/O zwischen einem Fibre Channel-Netzwerk und einem SolidFire Volume.</block>
@@ -6912,7 +6906,6 @@
   <block id="4a0a4752a851bfbcb612292d19d020e2" category="list-text">Wählen Sie *LDAPS-Protokoll verwenden*.</block>
   <block id="0109479a48c58beb89b4d5a4c29dff84" category="list-text">Geben Sie die erforderlichen Informationen unter *Allgemeine Einstellungen* ein.</block>
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">LDAP-Details</block>
-  <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="bed845a597b9ed08661e81c136055289" category="image-alt">Element neuer ldap-Server</block>
   <block id="70c1b3b43f6be512d1e0cda4ee22368b" category="list-text">Klicken Sie auf *LDAP aktivieren*.</block>
   <block id="f2709d92c4d623482a540a58d6e65b35" category="list-text">Klicken Sie auf *Benutzerauthentifizierung testen*, wenn Sie den Serverzugriff für einen Benutzer testen möchten.</block>
@@ -8022,8 +8015,6 @@
   <block id="a4cba27ccc43d00c0bd0c00a74974b97" category="list-text"><block ref="a4cba27ccc43d00c0bd0c00a74974b97" category="inline-link-rx"></block></block>
   <block id="275b3db58911d0480b2a907dde87b422" category="inline-link">SolidFire und Element 11.5 Documentation Center</block>
   <block id="319d00f06f0a5e8e99d071d51fe10259" category="list-text"><block ref="319d00f06f0a5e8e99d071d51fe10259" category="inline-link-rx"></block></block>
-  <block id="de71a625454de99f599dff258c53dbb8" category="inline-link">Ressourcen-Seite zu SolidFire</block>
-  <block id="b81ee69dc01cdd048b45d27758827feb" category="list-text"><block ref="b81ee69dc01cdd048b45d27758827feb" category="inline-link-rx"></block></block>
   <block id="a1f849873b24a052c89f589412d24b58" category="summary">Sie können ein Backup von SolidFire Snapshots auf externen Objektspeichern erstellen, die mit Amazon S3 kompatibel sind.</block>
   <block id="4aa1ed5df34629824188a7704a6c2004" category="list-text">Klicken Sie Auf**Data Protection** &gt; *Snapshots*.</block>
   <block id="e7b204c0d57cfe87f0135c8ccfccd550" category="list-text">Wählen Sie im Dialogfeld * Integriertes Backup* unter *Backup in* die Option *S3* aus.</block>
@@ -8557,7 +8548,6 @@
   <block id="d4f3775e2bff41a57405effb2e7249b6" category="paragraph">Sie können diese grundlegenden Schritte über die Element API verwenden, um Ihr Cluster zur Multi-Faktor-Authentifizierung einzurichten.</block>
   <block id="a8d74e35fafff7a5f37815f2dcc89753" category="paragraph">Details zu jeder API-Methode finden Sie im <block ref="c9d614c7cd4efd8daab5302738f269c2" category="inline-link-macro-rx"></block>.</block>
   <block id="88b1e425f6a8d373d7b16e1b016c6de1" category="list-text">Erstellen Sie eine neue IdP-Konfiguration (Identity Provider) eines Drittanbieters für das Cluster, indem Sie die folgende API-Methode aufrufen und die IdP-Metadaten im JSON-Format übergeben:<block ref="9c795e21fce602a372254d5a09ba96ad" prefix=" " category="inline-code"></block></block>
-  <block id="168af22e9c6015f03678011bffdead13" category="paragraph">IDP-Metadaten werden im Klartextformat aus dem Drittanbieter-IdP abgerufen. Diese Metadaten müssen validiert werden, um sicherzustellen, dass sie korrekt in JSON formatiert sind. Es stehen zahlreiche JSON-Formatierer-Anwendungen zur Verfügung, die Sie verwenden können, z. B.:https://freeformatter.com/json-escape.html.</block>
   <block id="65b69ef14e13e541a93abafc7baa59a1" category="list-text">Abrufen der Cluster-Metadaten über sMetadataUrl, um Daten in die IdP eines Drittanbieters zu kopieren, indem Sie die folgende API-Methode aufrufen:<block ref="fa9180a48c389ffd05a56ad89f9134ad" prefix=" " category="inline-code"></block></block>
   <block id="35cfc4986f93cb44da66955bf17e3c60" category="paragraph">SpMetadataUrl ist eine URL, mit der die Metadaten des Dienstanbieters für das IdP aus dem Cluster abgerufen werden, um eine Vertrauensbeziehung aufzubauen.</block>
   <block id="c3a1c9aeec925dec1a8d9125871ae8b6" category="list-text">Konfigurieren Sie die SAML-Behauptungen auf dem IdP eines Drittanbieters so, dass das Attribut „`NameID`“ verwendet wird, dass ein Benutzer für die Prüfprotokollierung eindeutig identifiziert wird und dass Single Logout ordnungsgemäß funktioniert.</block>
@@ -9753,7 +9743,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">LDAP-Server</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">(Optional) LDAP-Suche</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Upgrades der Element Storage-Firmware</block>
   <block id="94a2163bb19fc95c5d537943a7a7a263" category="paragraph">(Optional) HTTPS-Kommunikation an S3/Swift-Endpunkt für Backup und Recovery</block>
   <block id="ed26bc39a920ff3cacdfe283ccd802dc" category="paragraph">514 TCP/UDP</block>
   <block id="525aa1c52ef30b3901ee99d7dfaa1989" category="paragraph">10514 TCP/UDP</block>
@@ -11885,12 +11874,10 @@
   <block id="bc392d110b36a51cd536073024a5f532" category="list-text">Für H410S und H610S Nodes <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>.</block>
   <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
   <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">Mithilfe der können Sie den aktuellen Status der Verschlüsselung im Ruhezustand und/oder Softwareverschlüsselung im Ruhezustand auf dem Cluster anzeigen <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> Methode. Sie können das verwenden <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln.</block>
-  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
   <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
   <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">Managementservices bieten zentrale und erweiterte Managementfunktionen für SolidFire All-Flash-Storage. Hierzu zählen auch diese Services <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>, Active IQ Systemtelemetrie, Protokollierung und Service-Updates sowie der QoSSIOC-Service für das Element Plug-in für vCenter.</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">Weitere Informationen zu <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">Das Rollback eines Volumes auf einen Snapshot kann fehlschlagen, wenn die Slice-Synchronisierung ausgeführt wird. Wiederholen<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> Nach Abschluss der Synchronisierung.</block>
   <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">Das Rollback von Volumes auf einen Gruppen-Snapshot kann fehlschlagen, wenn die Slice-Synchronisierung ausgeführt wird. Wiederholen<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> Nach Abschluss der Synchronisierung.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -11928,9 +11915,6 @@
   <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">Sie führen ein Upgrade auf Element Plug-in für vCenter Server 5.3, 5.2, 5.1 oder 5.0 durch.</block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">Hinweis zu Managementservices 2.25.42 (NetApp Element-Plug-in für VMware vCenter Server 5.3.9)</block>
   <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="1bcef981f5c54e340e7b915c2dfacb97" category="sidebar">Dokumentation für SolidFire und Element Software 12.3</block>
   <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">Abgeschlossen</block>
   <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">IosInProgress</block>
@@ -11965,4 +11949,18 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">Über die API stehen Zugriffstypen zur Verfügung, die in der Element UI nicht verfügbar sind.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Verwandte Informationen</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Informationen zu den in der Element Benutzeroberfläche verfügbaren Zugriffstypen</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Informationen zu den für Element APIs verfügbaren Zugriffstypen</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">Element Storage Upgrades</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
+  <block id="9cad028b90d6f90e57eee2a48ccf4000" category="list-text"><block ref="9cad028b90d6f90e57eee2a48ccf4000" category="inline-link-macro-rx"></block></block>
+  <block id="a1855ae3a0a42fa9d6e151b58b750f1f" category="paragraph">Die IdP-Metadaten werden im Klartextformat vom Drittanbieter-IdP abgerufen. Diese Metadaten müssen validiert werden, um sicherzustellen, dass sie korrekt im JSON-Format vorliegen. Es gibt zahlreiche JSON-Formatierungsanwendungen, die verwendet werden können, zum Beispiel:https://freeformatter.com/json-escape.html</block>
 </blocks>

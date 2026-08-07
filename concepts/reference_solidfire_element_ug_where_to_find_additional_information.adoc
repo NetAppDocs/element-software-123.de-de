@@ -19,9 +19,6 @@ Im Documentation Center finden Sie zudem Informationen zur Hardwareinstallation 
 +
 Enthält Ressourcen zur Element Software, einschließlich Links zu Videoinhalten und technischen Berichten
 
-+
-https://www.netapp.com/us/documentation/solidfire.aspx["SolidFire All-Flash-Storage-Ressourcen"]
-
 * *NetApp SolidFire Documentation Center*
 +
 Bietet Informationen zur Installation und Wartung der Hardware, zusätzliche verfügbare Content-Ressourcen, Links zu bekannten Problemen und behobenen Problemen sowie die neuesten Versionshinweise.

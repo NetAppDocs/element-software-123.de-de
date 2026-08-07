@@ -15,6 +15,7 @@ Das Objekt authSessionInfo enthält Informationen über eine auth Session.
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:

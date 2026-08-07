@@ -65,6 +65,7 @@ Bevor Sie dieses Verfahren befolgen, sollten Sie ein Verständnis von haben link
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == Laden Sie ISO oder OVA herunter, und implementieren Sie die VM
 
 . Laden Sie die OVA oder ISO für Ihre Installation im herunter link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Element Software"^] Auf der NetApp Support Site finden.
@@ -111,6 +112,8 @@ NOTE: Wenn Sie einen Management-Node mithilfe des Images installieren, kann dies
 
 
 
+[[create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == Erstellen Sie den Management-Node-Administrator, und konfigurieren Sie das Netzwerk
 
 . Erstellen Sie über die Terminal User Interface (TUI) einen Management Node Admin User.
@@ -139,6 +142,7 @@ NOTE: Wenn Sie eine zusätzliche NIC benötigen, um den Speicherdatenverkehr zu 
 
 
 
+[[configure-time-sync]]
 == Konfigurieren Sie die Zeitsynchronisierung
 
 . Stellen Sie sicher, dass die Zeit zwischen dem Management-Node und dem Storage-Cluster mit NTP synchronisiert wird:
@@ -216,6 +220,7 @@ NOTE: Bearbeiten Sie NTP nicht, nachdem Sie die Konfiguration zur Zeitsynchronis
 
 
 
+[[set-up-the-management-node]]
 == Richten Sie den Management-Node ein
 
 . Konfigurieren und Ausführen des Management-Node-Setup-Befehls:
@@ -279,6 +284,7 @@ NOTE: Verwenden Sie einen eindeutigen Kontonamen für persistente Volumes, der s
 
 
 
+[[configure-controller-assets]]
 == Controller-Assets konfigurieren
 
 . Suchen Sie die Installations-ID:

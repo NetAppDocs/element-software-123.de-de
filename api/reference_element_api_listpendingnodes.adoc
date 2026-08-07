@@ -15,18 +15,21 @@ Sie können das verwenden `ListPendingNodes` Methode zum Auflisten der ausstehen
 
 
 
+[[ipv4-and-ipv6-management-addresses]]
 == IPv4- und IPv6-Managementadressen
 
 Beachten Sie das `ListPendingNodes` Listet nicht ausstehende Knoten auf, die unterschiedliche Adresstypen für die Management-IP-Adresse (MIP) und die virtuelle Management-IP-Adresse (MVIP) haben. Wenn z. B. ein ausstehender Node über einen IPv6 MVIP und eine IPv4 MIP verfügt, `ListPendingNodes` Berücksichtigt den Node nicht im Ergebnis.
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -45,6 +48,7 @@ xref:reference_element_api_pendingnode.adoc[Hängende Knoten] Array erledigen
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -59,6 +63,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -95,12 +100,14 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9.6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_addnodes.adoc[AddNodes]

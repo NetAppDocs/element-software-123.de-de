@@ -15,6 +15,7 @@ NetApp aktualisiert regelmäßig SolidFire und Element Software, um Ihnen neue F
 
 
 
+[[netapp-bugs-online-contains-known-and-resolved-issues]]
 == NetApp Bugs Online enthält bekannte und gelöste Probleme
 
 Bekannte und gelöste Probleme sind nun im NetApp Bugs Online-Tool aufgeführt. Sie können diese Themen nach Element und anderen Produkten durchsuchen.
@@ -30,6 +31,7 @@ image:bol_filters.PNG["BOL-Filter, „Mitte“ ausrichten"]
 
 
 
+[[element-12-3-2]]
 == Element 12.3.2
 
 Informieren Sie sich über die Neuerungen in Element 12.3.2.
@@ -38,18 +40,21 @@ Die Version Element Software 12.3.2 enthält die Risikominimierung, die das Risi
 
 
 
+[[element-12-3-1]]
 == Element 12.3.1
 
 Informieren Sie sich über die Neuerungen in Element 12.3.1.
 
 
 
+[[storage-firmware-bundle-2-99-2]]
 === Speicher-Firmware-Bundle 2.99.2
 
 Die Version von Element 12.3.1 enthält das Storage-Firmware-Bundle Version 2.99.2. Wenn sich Ihr Storage-Cluster bereits bei Element 12.3 befindet, haben Sie die Möglichkeit, einfach das neue Firmware-Bundle 2.99.2 zu installieren.
 
 
 
+[[support-for-dynamic-cpu-node-rating-for-solidfire-esds-host-platforms]]
 == Unterstützung für dynamische CPU-Knotenbewertung für SolidFire ESDS-Host-Plattformen
 
 SolidFire ESDS kann jetzt die gesamte Palette von Intel Gold und Silber Cascade Lake Generation CPUs, eine Reihe von 24 Modellen unterstützen. Die Dynamic Node Rating-Funktion weist dem Host-Server basierend auf der CPU eine QoS-IOPS-Bewertung zwischen 50.000 und 100.000 zu.
@@ -88,24 +93,28 @@ SolidFire ESDS kann jetzt die gesamte Palette von Intel Gold und Silber Cascade 
 |===
 
 
+[[support-for-single-bond-network-configuration-for-solidfire-esds]]
 === Unterstützung für Single-Bond-Netzwerkkonfiguration für SolidFire ESDS
 
 Sie können nun eine Single Bond-Netzwerkkonfiguration für Ihren Host mit SolidFire ESDS verwenden.
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === Unterstützung für neue Server in SolidFire Enterprise SDS
 
 SolidFire ESDS ist jetzt auf HPE DL380 Servern verfügbar. Siehe https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["NetApp Interoperabilitäts-Matrix-Tool (IMT)"^] Weitere Informationen zur unterstützten Konfiguration.
 
 
 
+[[element-12-3]]
 == Element 12.3
 
 Informieren Sie sich über die Neuerungen in Element 12.3.
 
 
 
+[[fifo-snapshot-queue-support]]
 === FIFO-Snapshot-Queue-Unterstützung
 
 Mit Element 12.3 können Sie eine FIFO-Warteschlange (First in First out) für Volume Snapshots erstellen. Mithilfe der Element API können Sie die minimale und maximale Anzahl von FIFO-Snapshot-Steckplätzen angeben, die beim Erstellen eines Volumes reserviert werden sollen. Wenn die FIFO-Snapshot-Warteschlange für ein Volume voll ist, entfernt der nächste Snapshot, den Sie für dieses Volume erstellen, den ältesten Snapshot dieses Volumes aus dem System. FIFO- und Non-FIFO-Snapshots nutzen beide den gleichen Pool verfügbarer Snapshot-Steckplätze auf einem Volume.
@@ -125,6 +134,7 @@ Die folgenden Element-API-Methoden beziehen sich auf FIFO-Snapshots (siehe link:
 
 
 
+[[snapshot-serialization-support]]
 === Serialisierung von Snapshots
 
 Element 12.3 unterstützt die serialisierte Snapshot-Erstellung. Beim Erstellen eines neuen Snapshots mithilfe der Element-API können Sie angeben, dass der Snapshot nicht erstellt werden soll, wenn noch eine frühere Snapshot-Replikation ausgeführt wird.
@@ -139,6 +149,7 @@ Die folgenden Element-API-Methoden beziehen sich auf die Serialisierung von Snap
 
 
 
+[[snapshot-retention-support]]
 === Unterstützung der Snapshot Aufbewahrung
 
 Mit Element 12.3 können Sie eine Aufbewahrungszeit für Snapshots festlegen. Wenn Sie keine Aufbewahrungszeit oder Ablaufzeit für einen Snapshot angeben, wird dieser für immer beibehalten.
@@ -155,6 +166,7 @@ Die folgenden Element-API-Methoden beziehen sich auf die Snapshot-Aufbewahrung (
 
 
 
+[[software-encryption-at-rest-enhancements]]
 === Verbesserte Softwareverschlüsselung für Daten im Ruhezustand
 
 Für die Softwareverschlüsselung im Ruhezustand bietet Element 12.3 die Einführung des External Key Management (EKM) und die Möglichkeit, den Master-Schlüssel für die Softwareverschlüsselung neu zu verschlüsseln. Bei der Erstellung eines Storage-Clusters können Sie die Softwareverschlüsselung im Ruhezustand aktivieren. Wenn Sie einen SolidFire Enterprise-SDS-Storage-Cluster erstellen, ist die Softwareverschlüsselung im Ruhezustand standardmäßig aktiviert. Diese Funktion verschlüsselt alle auf den SSDs gespeicherten Daten in den Storage-Nodes und verursacht nur eine sehr geringe Beeinträchtigung der Client-I/O (~2 %) auf die Performance.
@@ -170,30 +182,35 @@ Die folgenden Element-API-Methoden haben Bezug zu Softwareverschlüsselung im Ru
 
 
 
+[[storage-node-firmware-updates]]
 === Updates der Storage Node-Firmware
 
 Element 12.3 umfasst Firmware-Updates für Storage-Nodes. link:../concepts/concept_rn_relatedrn_element.html#storage-firmware["Weitere Informationen ."].
 
 
 
+[[security-enhancements]]
 === Verbesserte Sicherheit
 
 Element 12.3 behebt Schwachstellen bei Storage-Nodes und dem Management-Node. https://security.netapp.com/["Weitere Informationen ."] Über diese Sicherheitsverbesserungen.
 
 
 
+[[improved-behavior-for-failing-drives]]
 === Verbessertes Verhalten bei ausgefallenen Laufwerken
 
 Element 12.3 führt regelmäßig Zustandsprüfungen auf SolidFire-Laufwerken durch, wobei SMART-Health-Daten der Laufwerke verwendet werden. Ein Laufwerk, das die SMART-Health-Prüfung nicht erfolgreich abschließt, kann fast zum Ausfall führen. Wenn ein Laufwerk die SMART-Health-Prüfung nicht erfolgreich bestanden hat, wird das Laufwerk in den Status *FAILED* versetzt, und ein kritischer Clusterfehler mit dem Schweregrad wird angezeigt: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive.`
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === Unterstützung für neue Server in SolidFire Enterprise SDS
 
 SolidFire ESDS ist jetzt auf Dell R640-Servern verfügbar. Siehe https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["NetApp Interoperabilitäts-Matrix-Tool (IMT)"^] Weitere Informationen zur unterstützten Konfiguration.
 
 
 
+[[new-location-for-solidfire-esds-known-issues]]
 === Neuer Standort für SolidFire ESDS bekannte Probleme
 
 Sie können jetzt auf der nach bekannten Problemen suchen https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Bugs Online Tool (Anmeldung erforderlich)"^].
@@ -206,6 +223,5 @@ Sie können jetzt auf der nach bekannten Problemen suchen https://mysupport.neta
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire und Element Software Dokumentationszentrum für frühere Versionen"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Ressourcen-Seite zu NetApp HCI"^]
 * link:../hardware/fw_storage_nodes.html["Unterstützte Storage-Firmware-Versionen für SolidFire Storage-Nodes"] _NEU_
 

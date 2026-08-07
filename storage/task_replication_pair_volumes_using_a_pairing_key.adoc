@@ -66,6 +66,7 @@ Nach erfolgreichem Abschluss der Paarung sollten Sie die Volume-Tabelle aktualis
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_replication_volume_pairing_messages.adoc[Meldungen zur Volume-Kopplung]

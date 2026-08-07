@@ -17,6 +17,7 @@ Einem Konto können bis zu zweitausend Volumes zugewiesen sein, ein Volume kann 
 
 
 
+[[create-an-account]]
 == Erstellen Sie ein Konto
 
 Sie können ein Konto erstellen, um den Zugriff auf Volumes zu ermöglichen.
@@ -41,6 +42,7 @@ NOTE: Lassen Sie die Felder für Anmeldeinformationen leer, um ein Kennwort auto
 
 
 
+[[view-account-details]]
 == Kontodetails anzeigen
 
 Sie können Leistungsaktivitäten für einzelne Konten in einem grafischen Format anzeigen.
@@ -70,6 +72,7 @@ Hier sind einige Details:
 
 
 
+[[edit-an-account]]
 == Bearbeiten Sie ein Konto
 
 Sie können ein Konto bearbeiten, um den Status zu ändern, die CHAP-Schlüssel zu ändern oder den Kontonamen zu ändern.
@@ -98,6 +101,7 @@ NOTE: Wenn Sie die *CHAP-Einstellungen*-Anmeldeinformationen nicht ändern, blei
 
 
 
+[[delete-an-account]]
 == Löschen Sie ein Konto
 
 Sie können ein Konto löschen, wenn es nicht mehr benötigt wird.
@@ -115,6 +119,7 @@ IMPORTANT: Persistente Volumes, die mit Managementservices verknüpft sind, werd
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

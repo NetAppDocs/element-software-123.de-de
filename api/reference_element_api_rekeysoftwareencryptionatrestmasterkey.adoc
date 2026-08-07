@@ -15,6 +15,7 @@ Sie können das verwenden `RekeySoftwareEncryptionAtRestMasterKey` Methode zum R
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter. Wenn der `keyManagementType` Der Parameter wurde nicht angegeben, der Rekeyvorgang wird über die vorhandene Konfiguration für das Verschlüsselungsmanagement durchgeführt. Wenn der `keyManagementType` Ist angegeben und der Schlüsselanbieter ist extern, das `keyProviderID` Außerdem muss der Parameter verwendet werden.
@@ -33,6 +34,7 @@ Diese Methode verfügt über die folgenden Eingabeparameter. Wenn der `keyManage
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -46,6 +48,7 @@ Diese Methode verfügt über die folgenden Rückgabewerte:
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -62,6 +65,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -74,6 +78,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 12.3

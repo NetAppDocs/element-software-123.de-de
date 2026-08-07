@@ -6,6 +6,7 @@ Sie können das verwenden `Shutdown` Methode zum Neustart oder Herunterfahren de
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -41,6 +42,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat keinen Rückgabewert. == Beispielanforderungen für diese Methode sind dem folgenden Beispiel ähnlich:
@@ -62,6 +64,7 @@ Diese Methode hat keinen Rückgabewert. == Beispielanforderungen für diese Meth
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -80,6 +83,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9.6

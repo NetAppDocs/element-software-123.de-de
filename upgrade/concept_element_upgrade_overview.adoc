@@ -40,6 +40,7 @@ Upgrades mit NetApp Hybrid Cloud Control sind in früheren Service-Bundle-Versio
 
 
 
+[[sysupgradesystem-upgrade-sequence]]
 == [[sys_Upgrade]]Systemaktualisierungssequenz
 
 Mithilfe der folgenden Sequenz können Sie Ihr NetApp SolidFire All-Flash-Storage-System für Element 12.3.x aktualisieren
